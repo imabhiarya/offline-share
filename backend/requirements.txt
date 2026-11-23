@@ -1,0 +1,14 @@
+# Runtime dependencies (pinned to the versions tested). Install once while online,
+# or from the bundled wheelhouse on an offline build machine:
+#   pip install --no-index --find-links wheelhouse -r requirements.txt
+fastapi==0.165.0
+starlette==1.10.0
+pydantic==2.14.4
+uvicorn==0.54.0
+websockets==17.4
+sqlalchemy==2.1.9
+python-multipart==0.0.34
+openpyxl==3.1.5
+cryptography==50.0.2
+psutil==7.2.2
+pywin32==311; sys_platform == "win32"
